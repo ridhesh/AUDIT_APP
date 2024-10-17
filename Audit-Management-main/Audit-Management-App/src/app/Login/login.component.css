@@ -1,0 +1,84 @@
+.card {
+    margin-bottom: 20px;
+    border: none
+}
+.bodyl {
+    position: absolute;
+    z-index: -1;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background: linear-gradient(to right, black, 50%, teal );
+}
+
+.box {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    border-radius: 25px;
+    
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color: white;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: teal;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: linear-gradient(to right, teal, 60%, black );
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid teal;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+    background:linear-gradient(to right, black, 40%, teal );
+}
+
+.forgot {
+    text-decoration: underline
+}
+
+.error-message{
+    position: absolute;
+    top : 500px;
+    left: 590px;
+    width: 340px;
+    text-align: center;
+}
